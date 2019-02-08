@@ -307,25 +307,25 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink jsBooleanTrue          Boolean
   HiLink jsBooleanFalse         Boolean
   HiLink jsObjectColon          jsNoise
-  HiLink jsNoise                Noise
-  HiLink jsDot                  Noise
-  HiLink jsBrackets             Noise
-  HiLink jsParens               Noise
-  HiLink jsBraces               Noise
-  HiLink jsFuncBraces           Noise
-  HiLink jsFuncParens           Noise
-  HiLink jsClassBraces          Noise
-  HiLink jsClassNoise           Noise
-  HiLink jsIfElseBraces         Noise
-  HiLink jsTryCatchBraces       Noise
-  HiLink jsModuleBraces         Noise
-  HiLink jsObjectBraces         Noise
-  HiLink jsObjectSeparator      Noise
-  HiLink jsFinallyBraces        Noise
-  HiLink jsRepeatBraces         Noise
-  HiLink jsSwitchBraces         Noise
+  HiLink jsNoise                Operator
+  HiLink jsDot                  Operator
+  HiLink jsBrackets             Operator
+  HiLink jsParens               Operator
+  HiLink jsBraces               Operator
+  HiLink jsFuncBraces           Operator
+  HiLink jsFuncParens           Operator
+  HiLink jsClassBraces          Operator
+  HiLink jsClassNoise           Operator
+  HiLink jsIfElseBraces         Operator
+  HiLink jsTryCatchBraces       Operator
+  HiLink jsModuleBraces         Operator
+  HiLink jsObjectBraces         Operator
+  HiLink jsObjectSeparator      Operator
+  HiLink jsFinallyBraces        Operator
+  HiLink jsRepeatBraces         Operator
+  HiLink jsSwitchBraces         Operator
   HiLink jsSpecial              Special
-  HiLink jsTemplateBraces       Noise
+  HiLink jsTemplateBraces       Operator
   HiLink jsGlobalObjects        Constant
   HiLink jsGlobalNodeObjects    Constant
   HiLink jsExceptions           Constant
@@ -335,8 +335,8 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink jsExportDefault        StorageClass
   HiLink jsExportDefaultGroup   jsExportDefault
   HiLink jsModuleAs             Include
-  HiLink jsModuleComma          jsNoise
-  HiLink jsModuleAsterisk       Noise
+  HiLink jsModuleComma          Operator
+  HiLink jsModuleAsterisk       Operator
   HiLink jsFrom                 Include
   HiLink jsDecorator            Special
   HiLink jsDecoratorFunction    Function
@@ -347,17 +347,17 @@ if version >= 508 || !exists("did_javascript_syn_inits")
   HiLink jsSpreadOperator       Operator
   HiLink jsRestOperator         Operator
   HiLink jsRestExpression       jsFuncArgs
-  HiLink jsSwitchColon          Noise
+  HiLink jsSwitchColon          Operator
   HiLink jsClassMethodType      Type
   HiLink jsObjectMethodType     Type
   HiLink jsClassDefinition      jsFuncName
   HiLink jsBlockLabel           Identifier
   HiLink jsBlockLabelKey        jsBlockLabel
 
-  HiLink jsDestructuringBraces     Noise
+  HiLink jsDestructuringBraces     Operator
   HiLink jsDestructuringProperty   jsFuncArgs
   HiLink jsDestructuringAssignment jsObjectKey
-  HiLink jsDestructuringNoise      Noise
+  HiLink jsDestructuringNoise      Operator
 
   HiLink jsCommentFunction      jsComment
   HiLink jsCommentClass         jsComment
